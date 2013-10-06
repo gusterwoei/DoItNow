@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+            android:id="@+id/lyt_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/main_color_1">
+        <CheckBox
+                android:id="@+id/chk_taskdone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:shadowColor="@color/grey"
+                />
+        <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="My bad habit"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:fontFamily="@string/font_light"/>
+        <TextView
+                android:id="@+id/txt_severity"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="0"
+                android:textSize="16dp"
+                android:textColor="@color/red"
+                android:fontFamily="@string/font_light"
+                android:background="@color/main_color_2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_badhabitsublistitem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Success -->
+        <TextView
+                android:id="@+id/txt_success"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Success"
+                android:textSize="15dp"
+                android:textColor="@color/green"
+                android:background="@color/grey_EEEEEE"/>
+        <LinearLayout
+                android:id="@+id/lyt_success"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        </LinearLayout>
+
+        <!-- Fail -->
+        <TextView
+                android:id="@+id/txt_fail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Failure"
+                android:textSize="15dp"
+                android:textColor="@color/red"
+                android:background="@color/grey_EEEEEE"/>
+        <LinearLayout
+                android:id="@+id/lyt_fail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

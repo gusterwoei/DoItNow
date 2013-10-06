@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="red">#FF0000</color>
+	<color name="green">#009900</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="grey">#C0C0C0</color>
+    <color name="grey_555555">#AAAAAA</color>
+    <color name="grey_AAAAAA">#AAAAAA</color>
+    <color name="grey_BBBBBB">#BBBBBB</color>
+    <color name="grey_CCCCCC">#CCCCCC</color>
+    <color name="grey_DDDDDD">#DDDDDD</color>
+    <color name="grey_EEEEEE">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_333333">#333333</color>
+    <color name="black_555555">#555555</color>
+    <color name="brown">#C7944C</color>
+    <color name="light_brown">#E9C99C</color>
+    <color name="brown_993300">#993300</color>
+    <color name="blue">#0000FF</color>
+    <color name="light_blue">#DDDDFF</color>
+    <color name="fb_blue">#3B5998</color>
+    <color name="fb_light_blue">#5775B3</color>
+    <color name="twitter_blue">#4099FF</color>
+    <color name="main_color_1">#4388CC</color>
+    <color name="main_color_2">#72ADE6</color>
+    <color name="main_color_3">#FFCC66</color>
+    <color name="main_color_focused">#FF9A4D</color>
+</resources>

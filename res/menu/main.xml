@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_refresh"
+        android:title="Refresh"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_newpost"
+          android:title="Post"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_settings"
+          android:title="@string/action_settings"
+          android:showAsAction="never" />
+</menu>

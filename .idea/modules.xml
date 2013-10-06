@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Helper/ActionBarSherlock/ActionBarSherlock.iml" filepath="$PROJECT_DIR$/../Helper/ActionBarSherlock/ActionBarSherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoItNow.iml" filepath="$PROJECT_DIR$/DoItNow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Helper/SlidingMenu/library/library.iml" filepath="$PROJECT_DIR$/../Helper/SlidingMenu/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Helper/ListViewAnimations/library/library1.iml" filepath="$PROJECT_DIR$/../Helper/ListViewAnimations/library/library1.iml" />
+    </modules>
+  </component>
+</project>
+
